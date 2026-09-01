@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Italienisch lernen mit il gelato</title>
+
+<!-- ===== Als App auf dem Home-Bildschirm (iPad / iPhone / Android) ===== -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Il Gelato">
+<meta name="application-name" content="Il Gelato">
+<meta name="theme-color" content="#E3EEDC">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" sizes="180x180" href="data:image/png;base64,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">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   FARBEN & SCHRIFTEN
+   ============================================================ */
+:root{
+  --sfondo:#E3EEDC;        /* Hintergrund, Pistazie hell */
+  --panna:#FFFDF7;         /* Karten, Rahm */
+  --pistacchio:#7FB069;    /* Grün */
+  --fragola:#E4586F;       /* Erdbeere */
+  --limone:#F3C64B;        /* Zitrone */
+  --cioccolato:#3E2C23;    /* Text, Konturen */
+  --nocciola:#C58B5C;      /* Waffel */
+  --schrift-titel:"Fredoka","Trebuchet MS",Verdana,sans-serif;
+  --schrift-text:"Atkinson Hyperlegible","Trebuchet MS",Verdana,sans-serif;
+  --radius:22px;
+  --schatten:0 4px 0 var(--cioccolato);
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--sfondo);
+  color:var(--cioccolato);
+  font-family:var(--schrift-text);
+  font-size:18px;
+  line-height:1.5;
+  -webkit-text-size-adjust:100%;
+}
+.pagina{max-width:900px;margin:0 auto;padding:20px 16px 60px;}
+
+/* ---------- Vollbild-Modus (vom Home-Bildschirm gestartet) ---------- */
+body{
+  overscroll-behavior-y:none;             /* kein Gummiband-Scrollen */
+  -webkit-tap-highlight-color:transparent;/* kein graues Aufblitzen beim Tippen */
+}
+.tasto,.chip,.modo,.scelta,.altoparlante,.domanda,.risposta,.etichetta,h1,h2{
+  -webkit-user-select:none;user-select:none;  /* kein Text-Markieren beim Halten */
+  -webkit-touch-callout:none;
+}
+@supports(padding:max(0px)){
+  .pagina{
+    padding-top:max(20px, calc(env(safe-area-inset-top) + 12px));
+    padding-left:max(16px, env(safe-area-inset-left));
+    padding-right:max(16px, env(safe-area-inset-right));
+    padding-bottom:max(60px, calc(env(safe-area-inset-bottom) + 40px));
+  }
+}
+h1,h2,h3{font-family:var(--schrift-titel);font-weight:600;line-height:1.15;margin:0;}
+h1{font-size:clamp(30px,7vw,46px);}
+h2{font-size:22px;margin-bottom:10px;}
+p{margin:0 0 12px;}
+.piccolo{font-size:15px;opacity:.75;}
+
+/* ---------- Bildschirme ---------- */
+.schermo{display:none;}
+.schermo.attivo{display:block;animation:entra .25s ease-out;}
+@keyframes entra{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+
+/* ---------- Kopf ---------- */
+.testa{display:flex;align-items:center;gap:16px;margin-bottom:28px;flex-wrap:wrap;}
+.testa .sottotitolo{font-size:17px;margin:4px 0 0;}
+
+/* ---------- Knöpfe ---------- */
+.tasto{
+  font-family:var(--schrift-titel);font-size:19px;
+  background:var(--panna);color:var(--cioccolato);
+  border:2.5px solid var(--cioccolato);border-radius:var(--radius);
+  padding:12px 20px;cursor:pointer;box-shadow:var(--schatten);
+  transition:transform .08s ease,box-shadow .08s ease;
+}
+.tasto:hover{transform:translateY(-1px);}
+.tasto:active{transform:translateY(4px);box-shadow:0 0 0 var(--cioccolato);}
+.tasto:focus-visible{outline:3px solid var(--fragola);outline-offset:3px;}
+.tasto.grande{font-size:24px;padding:16px 34px;background:var(--limone);width:100%;max-width:340px;}
+.tasto.verde{background:var(--pistacchio);}
+.tasto.rossa{background:var(--fragola);color:var(--panna);}
+.tasto.piatta{box-shadow:none;border-width:2px;font-size:16px;padding:8px 14px;background:transparent;}
+.tasto[disabled]{opacity:.45;cursor:default;transform:none;}
+
+/* ---------- Auswahl-Chips ---------- */
+.gruppo{margin-bottom:26px;}
+.chips{display:flex;flex-wrap:wrap;gap:10px;}
+.chip{
+  font-family:var(--schrift-titel);font-size:17px;
+  background:var(--panna);border:2.5px solid var(--cioccolato);
+  border-radius:999px;padding:8px 18px;cursor:pointer;
+}
+.chip[aria-pressed="true"]{background:var(--pistacchio);}
+.chip:focus-visible{outline:3px solid var(--fragola);outline-offset:3px;}
+
+/* ---------- Modus-Karten ---------- */
+.modi{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+.modo{
+  text-align:left;display:flex;gap:12px;align-items:flex-start;
+  background:var(--panna);border:2.5px solid var(--cioccolato);border-radius:var(--radius);
+  padding:14px 16px;cursor:pointer;box-shadow:var(--schatten);font-family:var(--schrift-text);
+  color:inherit;
+}
+.modo[aria-pressed="true"]{background:var(--limone);}
+.modo:focus-visible{outline:3px solid var(--fragola);outline-offset:3px;}
+.modo b{font-family:var(--schrift-titel);font-size:19px;font-weight:600;display:block;}
+.modo span{font-size:14px;line-height:1.35;}
+.modo svg{flex:0 0 auto;margin-top:3px;}
+
+/* ---------- Übungs-Bildschirm ---------- */
+.barra-testa{display:flex;align-items:center;gap:14px;margin-bottom:14px;}
+.barra{flex:1;height:14px;background:var(--panna);border:2.5px solid var(--cioccolato);border-radius:999px;overflow:hidden;}
+.barra i{display:block;height:100%;background:var(--pistacchio);width:0;transition:width .3s ease;}
+.contatore{font-family:var(--schrift-titel);font-size:16px;white-space:nowrap;}
+
+.area{display:flex;gap:20px;align-items:flex-start;}
+.colonna{flex:1;min-width:0;}
+.cono{flex:0 0 auto;text-align:center;}
+.cono svg{height:250px;width:auto;}
+#cono-titolo svg{height:150px;}
+@media(max-width:640px){#cono-titolo svg{height:96px;}}
+.cono .conteggio{font-family:var(--schrift-titel);font-size:15px;margin-top:2px;}
+@media(max-width:640px){
+  .area{flex-direction:column-reverse;align-items:center;}
+  .cono svg{height:120px;}
+  .colonna{width:100%;}
+}
+
+.carta{
+  background:var(--panna);border:3px solid var(--cioccolato);border-radius:28px;
+  box-shadow:0 6px 0 var(--cioccolato);
+  padding:32px 22px;text-align:center;min-height:170px;
+  display:flex;flex-direction:column;justify-content:center;gap:10px;
+}
+.domanda{font-family:var(--schrift-titel);font-size:clamp(28px,6vw,42px);line-height:1.1;}
+.etichetta{font-size:14px;letter-spacing:.08em;text-transform:uppercase;opacity:.6;}
+.risposta{font-family:var(--schrift-titel);font-size:clamp(22px,5vw,32px);color:var(--pistacchio);}
+
+.altoparlante{
+  background:var(--limone);border:2.5px solid var(--cioccolato);border-radius:999px;
+  width:52px;height:52px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
+  margin:0 auto;box-shadow:0 3px 0 var(--cioccolato);
+}
+.altoparlante:active{transform:translateY(3px);box-shadow:none;}
+.altoparlante:focus-visible{outline:3px solid var(--fragola);outline-offset:3px;}
+
+.scelte{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:16px;}
+.scelta{
+  font-family:var(--schrift-titel);font-size:20px;text-align:center;
+  background:var(--panna);border:2.5px solid var(--cioccolato);border-radius:var(--radius);
+  padding:16px 12px;cursor:pointer;box-shadow:var(--schatten);
+}
+.scelta:active{transform:translateY(4px);box-shadow:none;}
+.scelta:focus-visible{outline:3px solid var(--fragola);outline-offset:3px;}
+.scelta.giusta{background:var(--pistacchio);}
+.scelta.sbagliata{background:var(--fragola);color:var(--panna);}
+.scelta[disabled]{cursor:default;}
+
+.scrivi{margin-top:16px;}
+.scrivi input{
+  width:100%;font-family:var(--schrift-titel);font-size:26px;text-align:center;
+  padding:14px 12px;border:2.5px solid var(--cioccolato);border-radius:var(--radius);
+  background:var(--panna);color:var(--cioccolato);
+}
+.scrivi input:focus{outline:3px solid var(--limone);outline-offset:2px;}
+.accenti{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:10px 0;}
+.accenti button{
+  font-family:var(--schrift-titel);font-size:20px;width:46px;height:46px;
+  border:2.5px solid var(--cioccolato);border-radius:14px;background:var(--panna);cursor:pointer;
+}
+.azioni{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px;}
+
+.riscontro{
+  margin-top:16px;text-align:center;font-family:var(--schrift-titel);font-size:22px;min-height:34px;
+}
+.riscontro.ok{color:var(--pistacchio);}
+.riscontro.no{color:var(--fragola);}
+.riscontro small{display:block;font-family:var(--schrift-text);font-size:17px;color:var(--cioccolato);}
+
+/* ---------- Wörterliste ---------- */
+.lista{list-style:none;padding:0;margin:0 0 24px;}
+.lista li{
+  display:flex;align-items:center;gap:12px;background:var(--panna);
+  border:2.5px solid var(--cioccolato);border-radius:16px;padding:10px 14px;margin-bottom:8px;
+}
+.lista .it{font-family:var(--schrift-titel);font-size:20px;flex:0 0 40%;}
+.lista .de{flex:1;}
+.lista button{
+  flex:0 0 auto;width:40px;height:40px;border-radius:999px;border:2.5px solid var(--cioccolato);
+  background:var(--limone);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
+}
+
+/* ---------- Quellenhinweis ---------- */
+.nota-fonte{
+  margin-top:26px;padding-top:14px;border-top:2px dashed rgba(62,44,35,.25);
+  font-size:13px;line-height:1.45;opacity:.6;max-width:620px;
+}
+
+/* ---------- Ende ---------- */
+.fine{text-align:center;}
+.fine .cono{margin:0 auto 10px;}
+.fine .punteggio{font-family:var(--schrift-titel);font-size:26px;margin:10px 0 4px;}
+
+@keyframes plop{0%{transform:scale(.2) translateY(-14px);opacity:0;}70%{transform:scale(1.12);}100%{transform:scale(1);opacity:1;}}
+.palla{transform-origin:center;animation:plop .32s cubic-bezier(.3,1.4,.5,1) both;}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important;}
+}
+</style>
+</head>
+<body>
+<div class="pagina">
+
+<!-- ============================ STARTBILDSCHIRM ============================ -->
+<section id="start" class="schermo attivo">
+  <div class="testa">
+    <div class="cono" id="cono-titolo" aria-hidden="true"></div>
+    <div>
+      <h1>Italienisch lernen mit il gelato</h1>
+      <p class="sottotitolo">Für jedes richtige Wort gibt es eine Kugel Gelato.</p>
+    </div>
+  </div>
+
+  <div class="gruppo">
+    <h2>1. Welche Lektion?</h2>
+    <div class="chips" id="scelta-lezioni"></div>
+  </div>
+
+  <div class="gruppo">
+    <h2>2. Wie möchtest du üben?</h2>
+    <div class="modi" id="scelta-modo">
+      <button class="modo" data-modo="karten" aria-pressed="false">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2.2">
+          <rect x="3" y="7" width="17" height="17" rx="3"/><path d="M9 4h14a3 3 0 0 1 3 3v14"/>
+        </svg>
+        <span><b>Karten</b><span>Wort anschauen, umdrehen, selber prüfen.</span></span>
+      </button>
+      <button class="modo" data-modo="wahl" aria-pressed="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2.2">
+          <circle cx="7" cy="9" r="4"/><circle cx="7" cy="21" r="4" fill="currentColor"/><path d="M15 9h12M15 21h12"/>
+        </svg>
+        <span><b>Auswählen</b><span>Aus vier Wörtern das richtige antippen.</span></span>
+      </button>
+      <button class="modo" data-modo="schreiben" aria-pressed="false">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2.2">
+          <path d="M4 26l2-6L20 6l4 4L10 24z"/><path d="M18 8l4 4"/>
+        </svg>
+        <span><b>Schreiben</b><span>Das Wort selber tippen. Am schwierigsten.</span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="gruppo">
+    <h2>3. In welche Richtung?</h2>
+    <div class="chips" id="scelta-direzione">
+      <button class="chip" data-dir="it-de" aria-pressed="true">Italienisch → Deutsch</button>
+      <button class="chip" data-dir="de-it" aria-pressed="false">Deutsch → Italienisch</button>
+      <button class="chip" data-dir="mix" aria-pressed="false">Gemischt</button>
+    </div>
+  </div>
+
+  <div class="azioni" style="justify-content:flex-start">
+    <button class="tasto grande" id="via">Los geht's!</button>
+    <button class="tasto piatta" id="mostra-lista">Alle Wörter anhören</button>
+  </div>
+  <p class="piccolo" id="nota-parole" style="margin-top:14px"></p>
+  <p class="piccolo nota-fonte">Private Lernhilfe zum Üben zuhause. Das Wortmaterial stammt aus dem
+  Italienisch-Lehrmittel der Schule und wird hier ausschliesslich zum persönlichen Lernen verwendet.
+  Keine Verlagspublikation, kein kommerzielles Angebot.</p>
+</section>
+
+<!-- ============================ ÜBEN ============================ -->
+<section id="esercizio" class="schermo">
+  <div class="barra-testa">
+    <button class="tasto piatta" id="indietro">← Zurück</button>
+    <div class="barra"><i id="barra-piena"></i></div>
+    <div class="contatore" id="contatore">1 / 12</div>
+  </div>
+
+  <div class="area">
+    <div class="colonna">
+      <div class="carta">
+        <div class="etichetta" id="etichetta">Was heisst das auf Deutsch?</div>
+        <div class="domanda" id="domanda">ciao</div>
+        <button class="altoparlante" id="ascolta" title="Wort anhören" aria-label="Wort anhören">
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round">
+            <path d="M4 10h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M18 8.5a6 6 0 0 1 0 9"/><path d="M21.5 5a10 10 0 0 1 0 16"/>
+          </svg>
+        </button>
+        <div class="risposta" id="risposta" hidden></div>
+      </div>
+
+      <div id="zona-scelte" class="scelte"></div>
+
+      <div id="zona-scrivi" class="scrivi" hidden>
+        <input id="campo" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="hier tippen">
+        <div class="accenti" id="accenti"></div>
+      </div>
+
+      <div class="riscontro" id="riscontro"></div>
+      <div class="azioni" id="azioni"></div>
+    </div>
+
+    <div class="cono" id="cono-esercizio">
+      <div id="disegno-cono"></div>
+      <div class="conteggio" id="conteggio-palle">0 Kugeln</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ENDE ============================ -->
+<section id="fine" class="schermo">
+  <div class="fine">
+    <div class="cono" id="cono-fine"></div>
+    <h1 id="titolo-fine">Bravo!</h1>
+    <p class="punteggio" id="punteggio"></p>
+    <p class="piccolo" id="parole-sbagliate"></p>
+    <div class="azioni">
+      <button class="tasto verde" id="ancora">Nochmal üben</button>
+      <button class="tasto rossa" id="solo-errori" hidden>Nur die Fehler üben</button>
+      <button class="tasto piatta" id="al-menu">Zurück zum Start</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WÖRTERLISTE ============================ -->
+<section id="lista" class="schermo">
+  <div class="barra-testa">
+    <button class="tasto piatta" id="lista-indietro">← Zurück</button>
+    <h2 style="margin:0">Alle Wörter</h2>
+  </div>
+  <div id="contenuto-lista"></div>
+</section>
+
+</div>
+
+<script>
+/* ==================================================================
+   WÖRTER EINTRAGEN
+   ------------------------------------------------------------------
+   Hier kommen die neuen Wörter hinein. Aufbau:
+
+     { lektion: "Name der Lektion", woerter: [
+         { it: "italienisch", de: "deutsch" },
+         ...
+     ]},
+
+   Tipps:
+   - Mehrere gültige Übersetzungen mit Schrägstrich: "hallo / tschüss"
+   - Zusätze in Klammern sind beim Tippen freiwillig: "bitte (gern geschehen)"
+   - Artikel (il, la, der, die, das) dürfen mitgetippt werden – müssen aber nicht.
+   - Neue Lektion einfach unten anhängen, sie erscheint automatisch als Knopf.
+   - Namen frei wählbar: statt "I colori" auch "Unità 3 – I colori".
+   ================================================================== */
+const WORTSCHATZ = [
+
+  /* ------------------------------------------------------------------
+     AKTUELLE WORTLISTE  (die im Heft grün markierten Wörter)
+     Hier jede Woche die neuen Wörter eintragen bzw. austauschen.
+     ------------------------------------------------------------------ */
+  { lektion: "Elenco di parole corrente", woerter: [
+    { it: "il cappello",                       de: "der Hut" },
+    { it: "il cioccolato",                     de: "die Schokolade" },
+    { it: "il gelato",                         de: "das Eis / Glace" },
+    { it: "il limone",                         de: "die Zitrone" },
+    { it: "il mare",                           de: "das Meer" },
+    { it: "l'elefante",                        de: "der Elefant" },
+    { it: "l'ombrello",                        de: "der Regenschirm" },
+    { it: "la pasta",                             de: "die Teigwaren" },
+    { it: "la pizza",                             de: "die Pizza" },
+    { it: "la radio",                             de: "das Radio" },
+    { it: "la tigre",                             de: "der Tiger" },
+    { it: "la torta",                             de: "der Kuchen / die Torte" }
+  ]},
+
+  /* ------------------------------------------------------------------
+     KAPITEL: jeweils das vollständige Kapitel.
+     Wörter, die zugleich in der aktuellen Liste oben stehen, dürfen hier
+     ruhig noch einmal auftauchen – beim Üben werden Doppel automatisch
+     zusammengefasst.
+     ------------------------------------------------------------------ */
+  { lektion: "Unità introduttiva – Pronti? Via!", woerter: [
+    { it: "ciao",                              de: "hallo / tschüss" },
+    { it: "Buongiorno.",                       de: "Guten Morgen." },
+    { it: "Arrivederci.",                      de: "Auf Wiedersehen." },
+    { it: "Come ti chiami?",                   de: "Wie heisst du?" },
+    { it: "Mi chiamo Matteo.",                 de: "Ich heisse Matteo." },
+    { it: "Io sono Monica.",                   de: "Ich bin Monica." },
+    { it: "E tu?",                             de: "Und du?" },
+    { it: "Siete pronti, bambini?",            de: "Seid ihr bereit, Kinder?" },
+    { it: "Via!",                              de: "Los! / Weg!" },
+    { it: "Dai, vieni!",                       de: "Los, komm!" },
+    { it: "Guarda!",                           de: "Schau!" },
+    { it: "Ascolta!",                          de: "Hör zu!" },
+    { it: "Ripeti!",                           de: "Wiederhole!" },
+    { it: "Fai attenzione!",                   de: "Pass auf!" },
+    { it: "Fai come me!",                      de: "Mach es wie ich!" },
+    { it: "Adesso basta!",                     de: "Jetzt reicht es!" },
+    { it: "Cantiamo insieme!",                 de: "Singen wir zusammen!" },
+    { it: "Batti le mani!",                    de: "Klatsche in die Hände!" },
+    { it: "Braccia in alto!",                  de: "Arme in die Höhe!" },
+    { it: "Muoviti come Tobi!",                de: "Beweg dich wie Tobi!" },
+    { it: "Metti i numeri!",                   de: "Setze die Zahlen!" },
+    { it: "in piedi",                          de: "stehend" },
+    { it: "naso contro naso",                  de: "Nase an Nase" },
+    { it: "schiena contro schiena",            de: "Rücken an Rücken" },
+    { it: "sottobraccio",                      de: "unterm Arm" },
+    { it: "il cappello",                          de: "der Hut" },
+    { it: "il cioccolato",                        de: "die Schokolade" },
+    { it: "il gelato",                            de: "das Eis / Glace" },
+    { it: "il limone",                            de: "die Zitrone" },
+    { it: "il mare",                              de: "das Meer" },
+    { it: "l'elefante",                           de: "der Elefant" },
+    { it: "l'ombrello",                           de: "der Regenschirm" },
+    { it: "la pasta",                             de: "die Teigwaren" },
+    { it: "la pizza",                             de: "die Pizza" },
+    { it: "la radio",                             de: "das Radio" },
+    { it: "la torta",                             de: "der Kuchen / die Torte" },
+    { it: "la tigre",                             de: "der Tiger" },
+    { it: "Tobi la tigre",                     de: "Tobi der Tiger" },
+    { it: "la maestra d'italiano",             de: "die Italienischlehrerin" },
+    { it: "Imparare l'italiano è un gioco.",   de: "Italienisch lernen ist ein Spiel." },
+    { it: "Per imparare l'italiano basta poco.", de: "Um Italienisch zu lernen, braucht es wenig." }
+  ]},
+
+  { lektion: "Unità 1 – I numeri", woerter: [
+    { it: "uno",                          de: "eins / ein" },
+    { it: "due",                          de: "zwei" },
+    { it: "tre",                          de: "drei" },
+    { it: "quattro",                      de: "vier" },
+    { it: "cinque",                       de: "fünf" },
+    { it: "sei",                          de: "sechs" },
+    { it: "sette",                        de: "sieben" },
+    { it: "otto",                         de: "acht" },
+    { it: "nove",                         de: "neun" },
+    { it: "dieci",                        de: "zehn" },
+    { it: "grazie",                       de: "danke" },
+    { it: "con noi",                      de: "mit uns" },
+    { it: "Va bene.",                     de: "Gut so. / Es geht gut." },
+    { it: "Brava!",                       de: "Bravo, gut!" },
+    { it: "Evviva!",                      de: "Viva, es lebe hoch!" },
+    { it: "Che schifo!",                  de: "Wie eklig!" },
+    { it: "Tocca a te!",                  de: "Du bist dran!" },
+    { it: "Indovina!",                    de: "Rate!" },
+    { it: "Gioca!",                       de: "Spiele!" },
+    { it: "Canta anche tu!",              de: "Sing auch du!" },
+    { it: "Canta se vuoi!",               de: "Sing, wenn du willst!" },
+    { it: "Salta anche tu!",              de: "Spring auch du!" },
+    { it: "Salta su e giù!",              de: "Spring auf und ab!" },
+    { it: "Quante sono?",                 de: "Wie viele sind es?" },
+    { it: "Qual è?",                      de: "Welches ist es? / Wie lautet ...?" },
+    { it: "Che cosa c'è nella scatola?",  de: "Was hat es in der Schachtel?" },
+    { it: "Ci sono le lumache.",          de: "Es hat Schnecken." },
+    { it: "Ecco il tuo premio.",          de: "Hier ist dein Preis." },
+    { it: "il numero esatto",             de: "die genaue Zahl" },
+    { it: "il mio numero di telefono",    de: "meine Telefonnummer" },
+    { it: "il tuo numero di telefono",    de: "deine Telefonnummer" },
+    { it: "il rock dei numeri",           de: "der Zahlenrock" }
+  ]}
+
+];
+
+/* Welche Lektionen sind beim Start angetippt?
+   Zahlen zählen ab 0: 0 = "Elenco di parole corrente" (aktuelle Wortliste),
+   1 = Unità introduttiva, 2 = Unità 1 usw.
+   Für alle Lektionen: [0,1,2] schreiben. */
+const START_LEZIONI = [0];
+
+/* Wie viele Wörter pro Durchgang? */
+const PRO_GIRO = 12;
+
+/* ================================================================== */
+
+const $ = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+
+/* ---------- Wortliste flach machen ---------- */
+const TUTTE = [];
+WORTSCHATZ.forEach((l, i) => l.woerter.forEach(w => TUTTE.push({ it: w.it, de: w.de, lez: i })));
+
+/* ---------- Zustand ---------- */
+const stato = {
+  lezioni: new Set(WORTSCHATZ.map((_, i) => i)),
+  modo: "wahl",
+  dir: "it-de",
+  coda: [],
+  totale: 0,
+  indice: 0,
+  palle: 0,
+  giusti: 0,
+  errori: [],
+  attuale: null,
+  ripetuti: new Set(),
+  girato: false,
+  bloccato: false
+};
+
+if(Array.isArray(START_LEZIONI)){
+  const scelte = START_LEZIONI.filter(i => i >= 0 && i < WORTSCHATZ.length);
+  if(scelte.length) stato.lezioni = new Set(scelte);
+}
+
+/* ---------- Aussprache ---------- */
+let voceIt = null;
+function caricaVoci(){
+  if(!("speechSynthesis" in window)) return;
+  const v = speechSynthesis.getVoices();
+  voceIt = v.find(x => (x.lang||"").toLowerCase().startsWith("it")) || null;
+}
+if("speechSynthesis" in window){
+  caricaVoci();
+  speechSynthesis.onvoiceschanged = caricaVoci;
+}
+function parla(testo){
+  if(!("speechSynthesis" in window)) return;
+  try{
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(testo.replace(/\([^)]*\)/g,"").replace(/[?!]/g,"").trim());
+    u.lang = "it-IT";
+    if(voceIt) u.voice = voceIt;
+    u.rate = 0.85;
+    speechSynthesis.speak(u);
+  }catch(e){}
+}
+
+/* ---------- Antwort prüfen ---------- */
+function norm(s){
+  return (s||"").toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[.,!?;:]/g,"")
+    .replace(/\s+/g," ").trim();
+}
+const ARTICOLI = /^(il|lo|la|l'|i|gli|le|un|uno|una|un'|der|die|das|den|dem|ein|eine)\s*/;
+function senzaArticolo(s){ return s.replace(ARTICOLI,"").trim(); }
+function varianti(testo){
+  const set = new Set();
+  const grezzi = [testo];
+  if(testo.includes("(")) grezzi.push(testo.replace(/\([^)]*\)/g," "));
+  grezzi.forEach(t => {
+    t.split(/\s*[\/,]\s*/).concat([t]).forEach(pezzo => {
+      const n = norm(pezzo);
+      if(n){ set.add(n); set.add(senzaArticolo(n)); }
+    });
+  });
+  set.delete("");
+  return set;
+}
+function corretto(dato, atteso){
+  const n = norm(dato);
+  if(!n) return false;
+  const v = varianti(atteso);
+  return v.has(n) || v.has(senzaArticolo(n));
+}
+
+/* ---------- Speicher (optional, stürzt nirgends ab) ---------- */
+const Memoria = {
+  dati: { palleTotali: 0 },
+  async carica(){
+    try{
+      if(window.storage){
+        const r = await window.storage.get("gelato-parole");
+        if(r && r.value) this.dati = Object.assign(this.dati, JSON.parse(r.value));
+      }
+    }catch(e){}
+    mostraNota();
+  },
+  async salva(){
+    try{
+      if(window.storage) await window.storage.set("gelato-parole", JSON.stringify(this.dati));
+    }catch(e){}
+  }
+};
+
+/* ---------- Gelato zeichnen ---------- */
+const GUSTI = ["#7FB069","#E4586F","#F3C64B","#C58B5C","#9AC7E0"];
+let contaCono = 0;
+function disegnaCono(n, nuovo){
+  const idc = "cialda" + (++contaCono);
+  const max = 12;
+  const visibili = Math.min(n, max);
+  let palle = "";
+  for(let i = 0; i < visibili; i++){
+    const y = 150 - i * 11;
+    const x = 60 + ((i % 3) - 1) * 4;
+    const cls = (nuovo && i === visibili - 1) ? ' class="palla"' : "";
+    palle += `<circle${cls} cx="${x}" cy="${y}" r="26" fill="${GUSTI[i % GUSTI.length]}" stroke="#3E2C23" stroke-width="2.5"/>`;
+  }
+  const extra = n > max ? `<text x="98" y="150" font-family="Fredoka, sans-serif" font-size="20" fill="#3E2C23">+${n-max}</text>` : "";
+  return `<svg viewBox="0 0 130 245" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${n} Kugeln Gelato">
+    <defs><clipPath id="${idc}"><path d="M33 150 L87 150 L60 228 Z"/></clipPath></defs>
+    <path d="M33 150 L87 150 L60 228 Z" fill="#C58B5C" stroke="#3E2C23" stroke-width="2.5" stroke-linejoin="round"/>
+    <g clip-path="url(#${idc})" stroke="#3E2C23" stroke-width="1.4" opacity=".55">
+      <path d="M20 160 L80 235 M20 180 L65 235 M20 200 L50 235 M100 160 L40 235 M100 180 L55 235 M100 200 L70 235"/>
+    </g>
+    ${palle}${extra}
+  </svg>`;
+}
+function aggiornaCono(nuovo){
+  $("#disegno-cono").innerHTML = disegnaCono(stato.palle, nuovo);
+  $("#conteggio-palle").textContent = stato.palle === 1 ? "1 Kugel" : stato.palle + " Kugeln";
+}
+
+/* ---------- Startbildschirm aufbauen ---------- */
+function costruisciLezioni(){
+  const c = $("#scelta-lezioni");
+  c.innerHTML = "";
+  const tutte = document.createElement("button");
+  tutte.className = "chip"; tutte.textContent = "Alle"; tutte.dataset.lez = "tutte";
+  tutte.setAttribute("aria-pressed", "true");
+  c.appendChild(tutte);
+  WORTSCHATZ.forEach((l, i) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.dataset.lez = i;
+    b.textContent = l.lektion + " (" + l.woerter.length + ")";
+    b.setAttribute("aria-pressed", "true");
+    c.appendChild(b);
+  });
+  c.addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if(!b) return;
+    if(b.dataset.lez === "tutte"){
+      stato.lezioni = new Set(WORTSCHATZ.map((_, i) => i));
+    }else{
+      const i = Number(b.dataset.lez);
+      if(stato.lezioni.has(i)) stato.lezioni.delete(i); else stato.lezioni.add(i);
+      if(stato.lezioni.size === 0) stato.lezioni.add(i);
+    }
+    aggiornaChipsLezioni();
+  });
+  aggiornaChipsLezioni();
+}
+function aggiornaChipsLezioni(){
+  $$("#scelta-lezioni .chip").forEach(b => {
+    if(b.dataset.lez === "tutte"){
+      b.setAttribute("aria-pressed", String(stato.lezioni.size === WORTSCHATZ.length));
+    }else{
+      b.setAttribute("aria-pressed", String(stato.lezioni.has(Number(b.dataset.lez))));
+    }
+  });
+  mostraNota();
+}
+function paroleScelte(){
+  /* Ein Wort kann in mehreren Listen stehen (z. B. aktuelle Liste + Kapitel).
+     Beim Üben soll es trotzdem nur einmal vorkommen. */
+  const visti = new Set();
+  return TUTTE.filter(w => {
+    if(!stato.lezioni.has(w.lez)) return false;
+    const chiave = w.it + "|" + w.de;
+    if(visti.has(chiave)) return false;
+    visti.add(chiave);
+    return true;
+  });
+}
+function mostraNota(){
+  const n = paroleScelte().length;
+  let t = n + (n === 1 ? " Wort ausgewählt." : " Wörter ausgewählt.");
+  if(Memoria.dati.palleTotali > 0) t += " Insgesamt schon " + Memoria.dati.palleTotali + " Kugeln gesammelt.";
+  $("#nota-parole").textContent = t;
+}
+
+$("#scelta-modo").addEventListener("click", e => {
+  const b = e.target.closest(".modo"); if(!b) return;
+  stato.modo = b.dataset.modo;
+  $$("#scelta-modo .modo").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+});
+$("#scelta-direzione").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if(!b) return;
+  stato.dir = b.dataset.dir;
+  $$("#scelta-direzione .chip").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+});
+
+/* ---------- Bildschirm wechseln ---------- */
+function mostra(id){
+  $$(".schermo").forEach(s => s.classList.toggle("attivo", s.id === id));
+  window.scrollTo(0, 0);
+}
+
+/* ---------- Durchgang starten ---------- */
+function mischia(a){
+  const b = a.slice();
+  for(let i = b.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [b[i], b[j]] = [b[j], b[i]];
+  }
+  return b;
+}
+function avvia(parole){
+  const base = parole && parole.length ? parole : paroleScelte();
+  stato.coda = mischia(base).slice(0, Math.max(PRO_GIRO, 0) || base.length);
+  if(stato.coda.length === 0) return;
+  stato.totale = stato.coda.length;
+  stato.indice = 0;
+  stato.palle = 0;
+  stato.giusti = 0;
+  stato.errori = [];
+  stato.ripetuti = new Set();
+  aggiornaCono(false);
+  mostra("esercizio");
+  prossima();
+}
+function direzioneAttuale(){
+  if(stato.dir === "mix") return Math.random() < 0.5 ? "it-de" : "de-it";
+  return stato.dir;
+}
+
+/* ---------- Nächste Frage ---------- */
+function prossima(){
+  if(stato.coda.length === 0){ finisci(); return; }
+  const w = stato.coda.shift();
+  const dir = direzioneAttuale();
+  stato.attuale = {
+    parola: w,
+    dir,
+    domanda: dir === "it-de" ? w.it : w.de,
+    soluzione: dir === "it-de" ? w.de : w.it,
+    italiano: w.it
+  };
+  stato.girato = false;
+  stato.bloccato = false;
+  stato.indice++;
+
+  $("#contatore").textContent = stato.indice + " / " + stato.totale;
+  $("#barra-piena").style.width = Math.round((stato.indice - 1) / stato.totale * 100) + "%";
+  $("#domanda").textContent = stato.attuale.domanda;
+  $("#etichetta").textContent = dir === "it-de" ? "Was heisst das auf Deutsch?" : "Wie heisst das auf Italienisch?";
+  $("#risposta").hidden = true;
+  $("#riscontro").textContent = "";
+  $("#riscontro").className = "riscontro";
+  $("#azioni").innerHTML = "";
+  $("#zona-scelte").innerHTML = "";
+  $("#zona-scrivi").hidden = true;
+  $("#ascolta").hidden = (dir !== "it-de");
+
+  if(dir === "it-de") parla(stato.attuale.italiano);
+
+  if(stato.modo === "karten") mostraCarta();
+  else if(stato.modo === "wahl") mostraScelte();
+  else mostraScrittura();
+}
+
+/* ---------- Modus: Karten ---------- */
+function mostraCarta(){
+  const az = $("#azioni");
+  const gira = document.createElement("button");
+  gira.className = "tasto grande"; gira.textContent = "Umdrehen";
+  gira.onclick = () => {
+    $("#risposta").hidden = false;
+    $("#risposta").textContent = stato.attuale.soluzione;
+    $("#ascolta").hidden = false;
+    parla(stato.attuale.italiano);
+    az.innerHTML = "";
+    const ok = document.createElement("button");
+    ok.className = "tasto verde"; ok.textContent = "Das wusste ich";
+    ok.onclick = () => { segna(true); prossima(); };
+    const no = document.createElement("button");
+    no.className = "tasto"; no.textContent = "Nochmal üben";
+    no.onclick = () => { segna(false); prossima(); };
+    az.append(ok, no);
+  };
+  az.appendChild(gira);
+}
+
+/* ---------- Modus: Auswählen ---------- */
+function mostraScelte(){
+  const dir = stato.attuale.dir;
+  const giusta = stato.attuale.soluzione;
+  const pool = paroleScelte().filter(w => (dir === "it-de" ? w.de : w.it) !== giusta);
+  const stessaLezione = mischia(pool.filter(w => w.lez === stato.attuale.parola.lez));
+  const altri = mischia(pool.filter(w => w.lez !== stato.attuale.parola.lez));
+  const distrattori = stessaLezione.concat(altri).slice(0, 3).map(w => dir === "it-de" ? w.de : w.it);
+  const opzioni = mischia([giusta].concat(distrattori));
+
+  const zona = $("#zona-scelte");
+  opzioni.forEach(o => {
+    const b = document.createElement("button");
+    b.className = "scelta"; b.textContent = o;
+    b.onclick = () => {
+      if(stato.bloccato) return;
+      stato.bloccato = true;
+      const giusto = o === giusta;
+      $$("#zona-scelte .scelta").forEach(x => {
+        x.disabled = true;
+        if(x.textContent === giusta) x.classList.add("giusta");
+        else if(x === b) x.classList.add("sbagliata");
+      });
+      risultato(giusto);
+    };
+    zona.appendChild(b);
+  });
+}
+
+/* ---------- Modus: Schreiben ---------- */
+const LETTERE = ["à","è","é","ì","ò","ù"];
+function mostraScrittura(){
+  $("#zona-scrivi").hidden = false;
+  const campo = $("#campo");
+  campo.value = "";
+  campo.disabled = false;
+  const acc = $("#accenti");
+  acc.innerHTML = "";
+  if(stato.attuale.dir === "de-it"){
+    LETTERE.forEach(l => {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = l;
+      b.onclick = () => { campo.value += l; campo.focus(); };
+      acc.appendChild(b);
+    });
+  }
+  const az = $("#azioni");
+  const controlla = document.createElement("button");
+  controlla.className = "tasto grande"; controlla.textContent = "Prüfen";
+  controlla.onclick = verifica;
+  az.appendChild(controlla);
+  campo.onkeydown = e => { if(e.key === "Enter"){ e.preventDefault(); verifica(); } };
+  setTimeout(() => campo.focus(), 60);
+}
+function verifica(){
+  if(stato.bloccato) return;
+  const campo = $("#campo");
+  if(!campo.value.trim()) return;
+  stato.bloccato = true;
+  campo.disabled = true;
+  risultato(corretto(campo.value, stato.attuale.soluzione));
+}
+
+/* ---------- Ergebnis anzeigen ---------- */
+const LODI = ["Bravo!","Genau!","Super!","Perfetto!","Richtig!","Sehr gut!"];
+function risultato(giusto){
+  const r = $("#riscontro");
+  $("#ascolta").hidden = false;
+  segna(giusto);
+  if(giusto){
+    r.className = "riscontro ok";
+    r.textContent = LODI[Math.floor(Math.random() * LODI.length)];
+    parla(stato.attuale.italiano);
+    $("#azioni").innerHTML = "";
+    setTimeout(prossima, 1100);
+  }else{
+    r.className = "riscontro no";
+    r.innerHTML = "Noch nicht ganz.<small>Richtig ist: <b>" + stato.attuale.soluzione + "</b></small>";
+    $("#risposta").hidden = true;
+    parla(stato.attuale.italiano);
+    $("#azioni").innerHTML = "";
+    const w = document.createElement("button");
+    w.className = "tasto grande"; w.textContent = "Weiter";
+    w.onclick = prossima;
+    $("#azioni").appendChild(w);
+    setTimeout(() => w.focus(), 60);
+  }
+}
+function segna(giusto){
+  if(giusto){
+    stato.giusti++;
+    stato.palle++;
+    Memoria.dati.palleTotali++;
+    Memoria.salva();
+    aggiornaCono(true);
+  }else{
+    const p = stato.attuale.parola;
+    if(!stato.errori.some(x => x.it === p.it)) stato.errori.push(p);
+    if(!stato.ripetuti.has(p.it)){          /* falsches Wort kommt am Ende noch einmal */
+      stato.ripetuti.add(p.it);
+      stato.coda.push(p);
+      stato.totale++;
+      $("#contatore").textContent = stato.indice + " / " + stato.totale;
+    }
+  }
+}
+
+/* ---------- Ende ---------- */
+function finisci(){
+  $("#barra-piena").style.width = "100%";
+  $("#cono-fine").innerHTML = disegnaCono(stato.palle, false);
+  const quota = stato.giusti / Math.max(stato.totale, 1);
+  const t = $("#titolo-fine");
+  if(stato.errori.length === 0) t.textContent = "Perfetto! Alles gewusst.";
+  else if(quota >= 0.7) t.textContent = "Bravo! Das war gut.";
+  else t.textContent = "Gut geübt!";
+  $("#punteggio").textContent = stato.palle + (stato.palle === 1 ? " Kugel Gelato verdient." : " Kugeln Gelato verdient.");
+  $("#parole-sbagliate").textContent = stato.errori.length
+    ? "Diese Wörter waren noch schwierig: " + stato.errori.map(w => w.it).join(", ")
+    : "";
+  $("#solo-errori").hidden = stato.errori.length === 0;
+  mostra("fine");
+}
+
+/* ---------- Wörterliste ---------- */
+function mostraListaParole(){
+  const c = $("#contenuto-lista");
+  c.innerHTML = "";
+  WORTSCHATZ.forEach(l => {
+    const h = document.createElement("h2");
+    h.textContent = l.lektion;
+    h.style.marginTop = "22px";
+    const ul = document.createElement("ul");
+    ul.className = "lista";
+    l.woerter.forEach(w => {
+      const li = document.createElement("li");
+      const b = document.createElement("button");
+      b.setAttribute("aria-label", "Anhören: " + w.it);
+      b.innerHTML = '<svg width="20" height="20" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 10h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M18 8.5a6 6 0 0 1 0 9"/></svg>';
+      b.onclick = () => parla(w.it);
+      const it = document.createElement("span"); it.className = "it"; it.textContent = w.it;
+      const de = document.createElement("span"); de.className = "de"; de.textContent = w.de;
+      li.append(b, it, de);
+      ul.appendChild(li);
+    });
+    c.append(h, ul);
+  });
+  mostra("lista");
+}
+
+/* ---------- Verdrahtung ---------- */
+$("#via").onclick = () => avvia();
+$("#indietro").onclick = () => { if("speechSynthesis" in window) speechSynthesis.cancel(); mostra("start"); };
+$("#ascolta").onclick = () => parla(stato.attuale ? stato.attuale.italiano : "");
+$("#ancora").onclick = () => avvia();
+$("#solo-errori").onclick = () => avvia(stato.errori.slice());
+$("#al-menu").onclick = () => mostra("start");
+$("#mostra-lista").onclick = mostraListaParole;
+$("#lista-indietro").onclick = () => { if("speechSynthesis" in window) speechSynthesis.cancel(); mostra("start"); };
+
+costruisciLezioni();
+$("#cono-titolo").innerHTML = disegnaCono(3, false);
+aggiornaCono(false);
+Memoria.carica();
+</script>
+</body>
+</html>
