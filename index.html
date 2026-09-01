@@ -370,56 +370,59 @@ p{margin:0 0 12px;}
 const WORTSCHATZ = [
 
   /* ------------------------------------------------------------------
-     AKTUELLE WORTLISTE  (die im Heft grün markierten Wörter)
+     AKTUELLE WÖRTER  (die im Heft grün markierten Wörter)
      Hier jede Woche die neuen Wörter eintragen bzw. austauschen.
      ------------------------------------------------------------------ */
-  { lektion: "Elenco di parole corrente", woerter: [
-    { it: "il cappello",                       de: "der Hut" },
-    { it: "il cioccolato",                     de: "die Schokolade" },
-    { it: "il gelato",                         de: "das Eis / Glace" },
-    { it: "il limone",                         de: "die Zitrone" },
-    { it: "il mare",                           de: "das Meer" },
-    { it: "l'elefante",                        de: "der Elefant" },
-    { it: "l'ombrello",                        de: "der Regenschirm" },
-    { it: "la pasta",                             de: "die Teigwaren" },
-    { it: "la pizza",                             de: "die Pizza" },
-    { it: "la radio",                             de: "das Radio" },
-    { it: "la tigre",                             de: "der Tiger" },
-    { it: "la torta",                             de: "der Kuchen / die Torte" }
+  { lektion: "Aktuelle Wörter", woerter: [
+    { it: "il cappello",    de: "der Hut" },
+    { it: "il cioccolato",  de: "die Schokolade" },
+    { it: "il gelato",      de: "das Eis / Glace" },
+    { it: "il limone",      de: "die Zitrone" },
+    { it: "il mare",        de: "das Meer" },
+    { it: "l'elefante",     de: "der Elefant" },
+    { it: "l'ombrello",     de: "der Regenschirm" },
+    { it: "la pasta",       de: "die Teigwaren" },
+    { it: "la pizza",       de: "die Pizza" },
+    { it: "la radio",       de: "das Radio" },
+    { it: "la tigre",       de: "der Tiger" },
+    { it: "la torta",       de: "der Kuchen / die Torte" }
   ]},
 
   /* ------------------------------------------------------------------
-     KAPITEL: jeweils das vollständige Kapitel.
-     Wörter, die zugleich in der aktuellen Liste oben stehen, dürfen hier
-     ruhig noch einmal auftauchen – beim Üben werden Doppel automatisch
-     zusammengefasst.
+     KAPITEL 1 – der vollständige Wortschatz des Kapitels.
+     Wörter, die zugleich oben in den aktuellen Wörtern stehen, dürfen
+     hier ruhig noch einmal auftauchen – beim Üben werden Doppel
+     automatisch zusammengefasst.
+     Weitere Kapitel einfach als neuen Block unten anhängen.
      ------------------------------------------------------------------ */
-  { lektion: "Unità introduttiva – Pronti? Via!", woerter: [
-    { it: "ciao",                              de: "hallo / tschüss" },
-    { it: "Buongiorno.",                       de: "Guten Morgen." },
-    { it: "Arrivederci.",                      de: "Auf Wiedersehen." },
-    { it: "Come ti chiami?",                   de: "Wie heisst du?" },
-    { it: "Mi chiamo Matteo.",                 de: "Ich heisse Matteo." },
-    { it: "Io sono Monica.",                   de: "Ich bin Monica." },
-    { it: "E tu?",                             de: "Und du?" },
-    { it: "Siete pronti, bambini?",            de: "Seid ihr bereit, Kinder?" },
-    { it: "Via!",                              de: "Los! / Weg!" },
-    { it: "Dai, vieni!",                       de: "Los, komm!" },
-    { it: "Guarda!",                           de: "Schau!" },
-    { it: "Ascolta!",                          de: "Hör zu!" },
-    { it: "Ripeti!",                           de: "Wiederhole!" },
-    { it: "Fai attenzione!",                   de: "Pass auf!" },
-    { it: "Fai come me!",                      de: "Mach es wie ich!" },
-    { it: "Adesso basta!",                     de: "Jetzt reicht es!" },
-    { it: "Cantiamo insieme!",                 de: "Singen wir zusammen!" },
-    { it: "Batti le mani!",                    de: "Klatsche in die Hände!" },
-    { it: "Braccia in alto!",                  de: "Arme in die Höhe!" },
-    { it: "Muoviti come Tobi!",                de: "Beweg dich wie Tobi!" },
-    { it: "Metti i numeri!",                   de: "Setze die Zahlen!" },
-    { it: "in piedi",                          de: "stehend" },
-    { it: "naso contro naso",                  de: "Nase an Nase" },
-    { it: "schiena contro schiena",            de: "Rücken an Rücken" },
-    { it: "sottobraccio",                      de: "unterm Arm" },
+  { lektion: "Kapitel 1", woerter: [
+
+    /* --- Unità introduttiva – Pronti? Via! --- */
+    { it: "ciao",                                 de: "hallo / tschüss" },
+    { it: "Buongiorno.",                          de: "Guten Morgen." },
+    { it: "Arrivederci.",                         de: "Auf Wiedersehen." },
+    { it: "Come ti chiami?",                      de: "Wie heisst du?" },
+    { it: "Mi chiamo Matteo.",                    de: "Ich heisse Matteo." },
+    { it: "Io sono Monica.",                      de: "Ich bin Monica." },
+    { it: "E tu?",                                de: "Und du?" },
+    { it: "Siete pronti, bambini?",               de: "Seid ihr bereit, Kinder?" },
+    { it: "Via!",                                 de: "Los! / Weg!" },
+    { it: "Dai, vieni!",                          de: "Los, komm!" },
+    { it: "Guarda!",                              de: "Schau!" },
+    { it: "Ascolta!",                             de: "Hör zu!" },
+    { it: "Ripeti!",                              de: "Wiederhole!" },
+    { it: "Fai attenzione!",                      de: "Pass auf!" },
+    { it: "Fai come me!",                         de: "Mach es wie ich!" },
+    { it: "Adesso basta!",                        de: "Jetzt reicht es!" },
+    { it: "Cantiamo insieme!",                    de: "Singen wir zusammen!" },
+    { it: "Batti le mani!",                       de: "Klatsche in die Hände!" },
+    { it: "Braccia in alto!",                     de: "Arme in die Höhe!" },
+    { it: "Muoviti come Tobi!",                   de: "Beweg dich wie Tobi!" },
+    { it: "Metti i numeri!",                      de: "Setze die Zahlen!" },
+    { it: "in piedi",                             de: "stehend" },
+    { it: "naso contro naso",                     de: "Nase an Nase" },
+    { it: "schiena contro schiena",               de: "Rücken an Rücken" },
+    { it: "sottobraccio",                         de: "unterm Arm" },
     { it: "il cappello",                          de: "der Hut" },
     { it: "il cioccolato",                        de: "die Schokolade" },
     { it: "il gelato",                            de: "das Eis / Glace" },
@@ -432,13 +435,12 @@ const WORTSCHATZ = [
     { it: "la radio",                             de: "das Radio" },
     { it: "la torta",                             de: "der Kuchen / die Torte" },
     { it: "la tigre",                             de: "der Tiger" },
-    { it: "Tobi la tigre",                     de: "Tobi der Tiger" },
-    { it: "la maestra d'italiano",             de: "die Italienischlehrerin" },
-    { it: "Imparare l'italiano è un gioco.",   de: "Italienisch lernen ist ein Spiel." },
-    { it: "Per imparare l'italiano basta poco.", de: "Um Italienisch zu lernen, braucht es wenig." }
-  ]},
+    { it: "Tobi la tigre",                        de: "Tobi der Tiger" },
+    { it: "la maestra d'italiano",                de: "die Italienischlehrerin" },
+    { it: "Imparare l'italiano è un gioco.",      de: "Italienisch lernen ist ein Spiel." },
+    { it: "Per imparare l'italiano basta poco.",  de: "Um Italienisch zu lernen, braucht es wenig." },
 
-  { lektion: "Unità 1 – I numeri", woerter: [
+    /* --- Unità 1 – I numeri --- */
     { it: "uno",                          de: "eins / ein" },
     { it: "due",                          de: "zwei" },
     { it: "tre",                          de: "drei" },
@@ -476,9 +478,8 @@ const WORTSCHATZ = [
 ];
 
 /* Welche Lektionen sind beim Start angetippt?
-   Zahlen zählen ab 0: 0 = "Elenco di parole corrente" (aktuelle Wortliste),
-   1 = Unità introduttiva, 2 = Unità 1 usw.
-   Für alle Lektionen: [0,1,2] schreiben. */
+   Zahlen zählen ab 0: 0 = "Aktuelle Wörter", 1 = "Kapitel 1" usw.
+   Für alle Listen: [0,1] schreiben. */
 const START_LEZIONI = [0];
 
 /* Wie viele Wörter pro Durchgang? */
