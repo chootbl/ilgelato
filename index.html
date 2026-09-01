@@ -227,10 +227,15 @@ body{
   cursor:pointer;display:inline-flex;align-items:center;justify-content:center;
 }
 
-/* ---------- Quellenhinweis ---------- */
-.nota-fonte{
-  margin-top:26px;padding-top:14px;border-top:2px dashed var(--bordo);
-  font-size:13px;line-height:1.45;color:var(--testo-tenue);opacity:.85;max-width:620px;
+/* ---------- Fusszeile ---------- */
+.pie{
+  margin-top:40px;padding-top:16px;border-top:2px dashed var(--bordo);
+  font-size:13px;line-height:1.5;color:var(--testo-tenue);max-width:620px;
+}
+.pie p{margin:0 0 10px;}
+.pie .copyright{
+  font-family:var(--schrift-titel);font-size:14px;letter-spacing:.03em;
+  color:var(--testo-tenue);opacity:.9;margin:0;
 }
 
 /* ---------- Ende ---------- */
@@ -301,10 +306,6 @@ body{
     <button class="tasto piatta" id="mostra-lista">Alle Wörter anhören</button>
   </div>
   <p class="piccolo" id="nota-parole" style="margin-top:14px"></p>
-  <p class="piccolo nota-fonte">Private Lernhilfe zum Üben zuhause. Das Wortmaterial stammt aus dem
-  Italienisch-Lehrmittel der Schule und wird hier ausschliesslich zum persönlichen Lernen verwendet.
-  Keine Verlagspublikation, kein kommerzielles Angebot.</p>
-  <p© 2026 outofbheboxlab </p>
 </section>
 
 <!-- ============================ ÜBEN ============================ -->
@@ -370,6 +371,14 @@ body{
   <div id="contenuto-lista"></div>
 </section>
 
+<!-- ============================ FUSSZEILE ============================ -->
+<footer class="pie">
+  <p>Private Lernhilfe zum Üben zuhause. Das Wortmaterial stammt aus dem
+  Italienisch-Lehrmittel der Schule und wird hier ausschliesslich zum persönlichen
+  Lernen verwendet. Keine Verlagspublikation, kein kommerzielles Angebot.</p>
+  <p class="copyright">&copy; 2026 outoftheboxlab</p>
+</footer>
+
 </div>
 
 <script>
@@ -416,9 +425,11 @@ const WORTSCHATZ = [
      Wörter, die zugleich oben in den aktuellen Wörtern stehen, dürfen
      hier ruhig noch einmal auftauchen – beim Üben werden Doppel
      automatisch zusammengefasst.
+     Weitere Kapitel einfach als neuen Block unten anhängen.
      ------------------------------------------------------------------ */
   { lektion: "Kapitel 1", woerter: [
 
+    /* --- Unità introduttiva – Pronti? Via! --- */
     { it: "ciao",                                 de: "hallo / tschüss" },
     { it: "Buongiorno.",                          de: "Guten Morgen." },
     { it: "Arrivederci.",                         de: "Auf Wiedersehen." },
@@ -461,6 +472,7 @@ const WORTSCHATZ = [
     { it: "Imparare l'italiano è un gioco.",      de: "Italienisch lernen ist ein Spiel." },
     { it: "Per imparare l'italiano basta poco.",  de: "Um Italienisch zu lernen, braucht es wenig." },
 
+    /* --- Unità 1 – I numeri --- */
     { it: "uno",                          de: "eins / ein" },
     { it: "due",                          de: "zwei" },
     { it: "tre",                          de: "drei" },

@@ -35,3 +35,5 @@ Private Lernhilfe zum Üben zuhause. Das Wortmaterial stammt aus dem
 Italienisch-Lehrmittel der Schule und wird ausschliesslich zum
 persönlichen Lernen verwendet. Keine Verlagspublikation, kein
 kommerzielles Angebot.
+
+<p align="center"><sub>&copy; 2026 outoftheboxlab</sub></p>
